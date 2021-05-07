@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import { About, Feature, Header, Presentation } from "./components";
+import { About, Contact, Feature, Header, Presentation } from "./components";
 import aboutData from "./data/aboutData.json";
 
 const App = () => {
@@ -16,6 +16,7 @@ const App = () => {
         />
       ))}
       <Presentation />
+      <Contact />
     </Application>
   );
 };
