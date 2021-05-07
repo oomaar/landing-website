@@ -1,9 +1,10 @@
 import styled from "styled-components/macro";
+import { Navbar } from "./components";
 
 const App = () => {
   return (
     <Application>
-      I'm the Application
+      <Navbar />
     </Application>
   );
 };
