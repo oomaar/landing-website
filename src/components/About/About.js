@@ -6,7 +6,7 @@ import {
 
 const About = ({ image, title, button }) => {
     return (
-        <Container>
+        <Container id="about">
             <ImageContainer>
                 <img src={image} alt={title} />
             </ImageContainer>
