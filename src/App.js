@@ -1,10 +1,11 @@
 import styled from "styled-components/macro";
-import { Header } from "./components";
+import { Feature, Header } from "./components";
 
 const App = () => {
   return (
     <Application>
       <Header />
+      <Feature />
     </Application>
   );
 };
