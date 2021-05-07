@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
     Nav,
     LogoLink,
@@ -10,8 +11,12 @@ import {
 } from "./styledNavbar";
 
 const Navbar = () => {
+    const [nav, setNav] = useState(false);
+    const changeBackground = () => (window.scrollY >= 50) ? setNav(true) : setNav(false);
+    window.addEventListener("scroll", changeBackground);
+
     return (
-        <Nav>
+        <Nav className={nav && "active"}>
             <LogoLink href="#">
                 <img src="/images/logo.png" alt="Logo" />
             </LogoLink>

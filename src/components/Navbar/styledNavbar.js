@@ -12,9 +12,17 @@ export const Nav = styled.nav`
     background-color: transparent;
     transition: 0.6s ease-in-out;
 
-    &.active {
+    /* &.active {
         box-shadow: 5px 10px 30px rgba(0, 247, 255, 0.157);
         background-color: #fff;
+    } */
+
+    &.active{
+        /* background-color: #00b7ff; */
+        background-color: rgba(0, 247, 255, 0.157);
+        color: #fff;
+        box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
+        transition: all ease 0.2s;
     }
 
     @media (max-width: 1100px) {
