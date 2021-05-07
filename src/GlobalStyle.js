@@ -15,4 +15,24 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #fff;
         font-family: 'Montserrat', sans-serif;
     }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    button {
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    input {
+        outline: none;
+        border: none;
+    }
 `;
