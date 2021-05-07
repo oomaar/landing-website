@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Comes With All You Need For Daily Life",
+        "image": "/images/Frame 19.png",
+        "button": "Get The App"
+    },
+    {
+        "id": 2,
+        "title": "Download And Get The App Now",
+        "image": "/images/download.png",
+        "button": "Download"
+    }
+]
