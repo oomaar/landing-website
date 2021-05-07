@@ -11,7 +11,7 @@ const FeatureBox = ({ image, title, text }) => {
                 <img src={image} alt={title} />
             </ImageContainer>
             <TextContainer>
-                <h1>{title}</h1>
+                <h2>{title}</h2>
                 <p>{text}</p>
             </TextContainer>
         </Container>

@@ -60,7 +60,11 @@ export const TextContainer = styled.div`
         text-overflow: ellipsis;
 
         :hover {
-            color:#000266;
+            color: #000266;
         }
+    }
+
+    a {
+        margin-top: 15px;
     }
 `;
